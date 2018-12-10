@@ -57,6 +57,10 @@
     margin-right: 1.66vw;
   }
 
+  .nav-hover:hover {
+    color: #E5E5E5;
+  }
+
   .log-in {
     padding: 11px 36px;
     padding: .694vw 2.5vw;
