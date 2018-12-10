@@ -556,6 +556,7 @@
     color: #30383a;
     padding-left: 14px;
     padding-left: 0.972vw;
+    width: auto;
   }
 
   .card-button {
@@ -626,6 +627,7 @@
     color: #30383a;
     padding-left: 14px;
     padding-left: .972vw;
+    width: auto;
   }
 
   .services-container {
