@@ -215,3 +215,70 @@ nav span {
   height: 220px;
   height: 15.27vw;
 }
+
+.body-container-one {
+  display: flex;
+  margin-top: 380px;
+  margin-top: 25.388vw;
+  width: 100%;
+}
+
+..laptop {
+  width: 65%;
+}
+
+.laptop img {
+  width: 100%;
+}
+
+.body-text-box {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  justify-content: center;
+  padding-left: 104px;
+  padding-left: 6.22vw;
+}
+
+.symbol-header {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.symbol-header img {
+  height: 24px;
+  height: 1.66vw;
+  width: 24px;
+  width: 1.66vw;
+}
+
+.symbol-header h2 {
+  font-size: 18px;
+  font-size: 1.25vw;
+  color: #868E91;
+  font-weight: bold;
+  padding-left: 8px;
+  padding-left: .55vw;
+}
+
+.body-subheader {
+  color: #01435C;
+  font-size: 45px;
+  font-size: 3.125vw;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-top: .55vw;
+}
+
+.feature-description {
+  width: 395px;
+  width: 27.43055vw;
+  font-size: 24px;
+  font-size: 1.66vw;
+  color: #364348;
+  line-height: 34px;
+  line-height: 2.361vw;
+  margin-top: 20px;
+  margin-top: 1.388vw;
+}
