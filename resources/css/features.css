@@ -188,6 +188,7 @@ nav span {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1;
   height: 40px;
   height: 2.77vw;
   width: 182px;
@@ -202,6 +203,11 @@ nav span {
   margin-bottom: 4.166vw;
 }
 
+.hero-card a:hover {
+  background-color: rgba(215, 217, 218, 0.33);
+  border: 1px solid #5E696C;
+}
+
 .rocket-box {
   display: flex;
   justify-content: center;
@@ -214,20 +220,35 @@ nav span {
 .rocket-box img {
   height: 220px;
   height: 15.27vw;
+  z-index: 0;
 }
 
-.body-container-one {
+.body-container {
   display: flex;
   margin-top: 380px;
   margin-top: 25.388vw;
   width: 100%;
 }
 
-..laptop {
+.body-container-alt {
+  display: flex;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.mockup {
   width: 65%;
 }
 
-.laptop img {
+.mockup-alt {
+  width: 60%;
+}
+
+.mockup-alt img {
+  width: 100%
+}
+
+.mockup img {
   width: 100%;
 }
 
@@ -235,6 +256,15 @@ nav span {
   display: flex;
   flex-direction: column;
   width: 35%;
+  justify-content: center;
+  padding-left: 104px;
+  padding-left: 6.22vw;
+}
+
+.body-text-box-alt {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
   justify-content: center;
   padding-left: 104px;
   padding-left: 6.22vw;
@@ -269,6 +299,8 @@ nav span {
   font-weight: bold;
   margin-top: 8px;
   margin-top: .55vw;
+  width: 394px;
+  width: 27.361vw;
 }
 
 .feature-description {
