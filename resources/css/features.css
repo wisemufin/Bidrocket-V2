@@ -172,6 +172,8 @@ nav span {
   height: 3.75vw;
   width: 54px;
   width: 3.75vw;
+  padding-bottom: 4px;
+  padding-bottom: .277vw;
 }
 
 .feature-item h3{
